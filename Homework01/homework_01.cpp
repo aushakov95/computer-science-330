@@ -1,28 +1,17 @@
-/*
-Homework 1, Due Monday Feb 1.
-Problem 8, page 21.
-Use an array of 100 floats. Do not use a vector.
-Input the numbers using cin until end-of-file (^D). This way you can input the numbers from either standard input (keyboard) or a file using input redirection.
-As you input the numbers count number of numbers (n). Then make two calls to functions average() and variance(). Remember that the name of an array is a pointer to the base of the array and that is what you pass to the functions.
-Your program must run correctly for the following input:
-10
-2
-5
-20
-8
-1
-15
-6
-Be sure to handle end cases such as n = 0, 1, or greater than 100.
-Hand in a printout of your program and typescript of the sample run for the above input.
-*/
+/***********************************************************************
+* Andrey Ushakov
+* homework_01.cpp
+* 1/30/16
+* This program is designed to take in up to 100 float type numbers and
+* calculate the average and the variance of them.
+************************************************************************/
 
 #include <iostream>
 #include <array>
 
 using namespace std;
 
-float average(float *arr, float n){
+float average(float *arr, float n){     //function to find the average of all numbers in the array.
 
   float sum;
   float average_result;
@@ -37,10 +26,10 @@ float average(float *arr, float n){
 
     average_result = sum/n;
     return average_result;
-  }
+         }
 }
 
-float variance(float *arr, float averageResult, float n){
+float variance(float *arr, float averageResult, float n){   //function to find the variance of all numbers in the array
 
   float sum_of_squares;
   float square;
@@ -83,5 +72,6 @@ int main()
 
     cout << "\nThe average is: " << averageResult << endl;
     cout << "The variance is: " << varianceResult << endl << endl;
-  }
+      }
+
 } //main
