@@ -1,0 +1,18 @@
+Script started on Sun Jan 24 16:42:38 2016
+[?1034hbash-3.2$ exittime ./a.out
+Testing time complexity for BUBBLE sort. Please enter the size for a vector: 8000
+
+
+Pushing 8000 random numbers to vector...		Done.
+Sorting the vector...	Done.
+Writing all vector elements to file...	Done.
+
+
+
+real	0m4.944s
+user	0m0.344s
+sys	0m0.019s
+bash-3.2$ exit
+exit
+
+Script done on Sun Jan 24 16:42:47 2016

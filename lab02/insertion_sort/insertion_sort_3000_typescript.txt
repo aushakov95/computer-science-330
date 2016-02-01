@@ -1,0 +1,18 @@
+Script started on Sun Jan 24 17:17:47 2016
+[?1034hbash-3.2$ exittime ./a.out
+Testing time complexity for INSERTION sort. Please enter the size for a vector: 399  000
+
+
+Pushing 3000 random numbers to vector...	Done.
+Sorting the vector...	Done.
+Writing all vector elements to file...	Done.
+
+
+
+real	0m4.711s
+user	0m0.025s
+sys	0m0.010s
+bash-3.2$ exit
+exit
+
+Script done on Sun Jan 24 17:17:56 2016
