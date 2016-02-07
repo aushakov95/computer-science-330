@@ -1,9 +1,11 @@
-/*******************************************
+/*************************************************
 * Andrey Ushakov
 * Vector_test.cpp
 * 02/03/16
-* Description:
-********************************************/
+* Description: This program is designed to provide
+* unit tests for the Vector.h file which contains
+* the Vector class.
+**************************************************/
 #include <iostream>
 #include <string>
 #include <cassert>
