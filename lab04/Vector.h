@@ -1,9 +1,11 @@
-/*******************************************
+/********************************************************
 * Andrey Ushakov
 * Vector_test.cpp
 * 02/03/16
-* Description:
-********************************************/
+* Description: The purpose of this program is
+* to implement a Vector class that has the same
+* functionality as the vector class from the STL library.
+*********************************************************/
 #ifndef VECTOR_H
 #define VECTOR_H
 
