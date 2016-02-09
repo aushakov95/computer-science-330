@@ -1,9 +1,8 @@
 /***********************************************************************
-K Zemoudeh
-4/7/08
-String.cpp
-
-Implementation of constructors and member functions defined in String.h.
+* Andrey Ushakov
+* 02/08/16
+* String.cpp
+* Implementation of constructors and member functions defined in String.h.
 ************************************************************************/
 
 #include <cassert>

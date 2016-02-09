@@ -1,3 +1,9 @@
+/*******************************************************************
+* Andrey Ushakov
+* 02/08/16
+* String_test.cpp
+* This program contains unit tests for the functions of class String
+********************************************************************/
 #include <iostream>
 #include <cassert>
 #include "String.h"

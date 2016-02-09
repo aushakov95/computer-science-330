@@ -1,3 +1,9 @@
+/*************************************************************
+* Andrey Ushakov
+* 02/08/16
+* String.h
+* Defining the String class which is implemented in String.cpp
+**************************************************************/
 #ifndef STRING_H
 #define STRING_H
 
