@@ -1,6 +1,6 @@
 /********************************************************
 * Andrey Ushakov
-* Vector_test.cpp
+* Vector.h
 * 02/03/16
 * Description: The purpose of this program is
 * to implement a Vector class that has the same
